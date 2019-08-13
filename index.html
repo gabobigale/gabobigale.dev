@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gabobigale.dev</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/gabobigaledevicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body id="top"><div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand">Gabobigale.dev</h3>
+            <nav class="nav nav-masthead"> 
+              <!-- <a class="nav-link nav-social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> -->
+              <i class="fa fa-instagram"></i>
+              <a class="nav-link nav-social" href="https://www.instagram.com/gabobigale.dev/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+              <a class="nav-link nav-social" href="https://twitter.com/gabobigaledev" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              <a class="nav-link nav-social" href="https://github.com/gabobigaledev" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+              <a class="nav-link nav-social" href="#" data-toggle="modal" data-target="#subscribeModal"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+            </nav>
+          </div>
+        </div><br> <div class="inner cover">
+          <h1 class="cover-heading">Just Another Developer having fun</h1>
+        </div>
+        <div class="mastfoot">
+          <div class="inner">
+          </div>
+        </div>
+        <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="subscribeModalLabel">Send me a Message directly, i'll answer asap:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div> 
+              <div class="modal-body">
+                <form id="contact-form" method="POST" action="https://formspree.io/info@gabobigale.dev"> 
+                  <div class="form-group center-block">
+                    <label for="idname" class="form-control-label">I want to know about you</label>
+                    <input type="text" class="form-control" id="idname" placeholder="your-name" name="name">
+                    <input type="email" class="form-control" id="idmail" placeholder="your-name@example.com" name="email">
+                    <textarea class="form-control" id="idmessage" placeholder="your Message Content" name="message"></textarea>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="submit" class="btn btn-default" id="email-submit-btn" value="Send">Send</button>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>    
+  </body>
+</html>
