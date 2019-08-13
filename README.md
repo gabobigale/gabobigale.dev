@@ -1,3 +1,3 @@
 # gabobigale.dev
 Personal website 
-https://www.gabobigale.dev
+https://gabobigale.dev
